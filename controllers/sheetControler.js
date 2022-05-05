@@ -30,14 +30,14 @@ exports.redSheet = catchAsync(async (req, res, next) => {
 });
 
 exports.updateSheet = catchAsync(async (req, res) => {
-  //   const { spreadsheet_id, sheet_id, row_number, column_number, value } =
-  //     req.body;
+  const { spreadsheet_id, sheet_id, row_number, column_number, value } =
+    req.body;
 
-  const spreadsheet_id = "1tkYTGls_8eSGD5kOIDcaWGiDvIC7muuwupgiyRBjrc0";
-  const sheet_id = 0;
-  const row_number = 1;
-  const column_number = 1;
-  const value = 639;
+  // const spreadsheet_id = "1tkYTGls_8eSGD5kOIDcaWGiDvIC7muuwupgiyRBjrc0";
+  // const sheet_id = 0;
+  // const row_number = 1;
+  // const column_number = 1;
+  // const value = 639;
 
   if (
     spreadsheet_id === null ||
